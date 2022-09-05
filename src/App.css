@@ -1,0 +1,145 @@
+
+:root{
+  --Primary-Color: #66C3FF;
+  --Secondary-Color: #53D8FB;
+  --Primary-bg: #DCE1E9 ;
+  --Secondary-bg: #D4AFB9;
+  --shadow: #363732;
+}
+
+.App{
+  display: inline-block;
+  background-color: var(--Primary-bg);
+}
+.Nav{
+  position: sticky;
+  top: 0px;
+  background-color:  var(--shadow);
+  width: 99vw;
+  height: 10vh;
+}
+.Logo{
+  width: 7vw;
+  height:7vw;
+  transition: 0.3s;
+}
+.Logo:hover{
+  width: 8vw;
+  height:8vw;
+}
+.Navbar{
+  display: flex;
+  font-family: 'Courier New', monospace;
+  overflow: auto;
+}
+.Links{
+  width: 99vw;
+  height: 10vh;
+  padding-top: auto;
+}
+.Links a{
+  float: right;
+  color: #DCD3D3;
+  margin-right: 25px;  
+  margin-top: 6vh;
+}
+.Links a :hover{
+  font-weight: 900;
+
+}
+.Profile{
+  background-image: url("images/back2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 99vw;
+  height: 500px;
+  display: flex;
+}
+.Profile-Name{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 5vw;
+}
+.Profile-Objective{
+  font-family: 'Share Tech Mono';
+
+  text-align: center;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: 5vw;
+  font-size: 2vw;
+  line-height: 4vw;
+}
+.Profile-Skills{
+  margin-top: 5vw;
+  display: flex;
+
+}
+.Skills-Right{
+
+}
+.Skills {
+  padding-left: 20vw;
+  font-family: 'Share Tech Mono';
+}
+.Skills-Img{
+  margin-top:3vw;
+  margin-left: 5vw;
+  height: 30vw;
+  width: 30vw;
+}
+.Skills-Left{
+  margin-top: 8vw;
+
+  display: flex;
+  flex-direction: column;
+
+}
+.Skills-Title{
+  margin-left: 10vw;
+  margin-bottom: 3vw;
+  font-size: 3vw;
+  color: #5FADDF;
+
+}
+.Skills-Desc{
+  font-family: 'Share Tech Mono';
+  margin-right: 10vw;
+  margin-left: 15vw;
+  width: 35vw;
+  line-height: 3vw;
+}
+.Profile-Left{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  height: 500px;
+  width: 50vw;
+  padding-left: 3vw;
+  color: var(--Primary-Color);
+  
+}
+.Profile-Right{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+.Profile-Bottom{
+  height: 1000px;
+  background-color: var(--Secondary-bg);
+}
+.Profile-Pic{
+  height: 25vw;
+  width: 26vw;
+}
+
+.Profile-Desc{
+  color: var(--Secondary-Color);
+  margin-top: 10px;
+  padding-left: 15px;
+  height: 20px;
+  font-family: 'Share Tech Mono';
+}
