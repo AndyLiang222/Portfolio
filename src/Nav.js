@@ -6,10 +6,10 @@ function Nav() {
         <nav className = "Navbar">
             <img className='Logo' src={Logo}></img>
             <div className='Links'>
-                <a href="/#/contact">Contact</a>
+                <a href="Portfolio/#/contact">Contact</a>
                 <a >Archive</a>  
-                <a href = "/#/projects">Projects</a>
-                <a  href ="/#/about">About</a>
+                <a href = "Portfolio/#/projects">Projects</a>
+                <a  href ="Portfolio/#/about">About</a>
             </div>
         </nav>
       </div>
