@@ -10,6 +10,8 @@
 .App{
   display: inline-block;
   background-color: var(--Primary-bg);
+  border: 0px;
+  overflow-x: hidden;
 }
 .Nav{
   position: sticky;
@@ -17,6 +19,7 @@
   background-color:  var(--shadow);
   width: 99vw;
   height: 10vh;
+  z-index: 100;
 }
 .Logo{
   width: 7vw;
@@ -42,8 +45,10 @@
   color: #DCD3D3;
   margin-right: 25px;  
   margin-top: 6vh;
+  font-weight: 400;
+  text-decoration: none;
 }
-.Links a :hover{
+.Links a:hover{
   font-weight: 900;
 
 }
@@ -67,12 +72,12 @@
   text-align: center;
   padding-left: 10vw;
   padding-right: 10vw;
-  padding-top: 5vw;
+
   font-size: 2vw;
   line-height: 4vw;
 }
 .Profile-Skills{
-  margin-top: 5vw;
+  margin-top: 10vw;
   display: flex;
 
 }
@@ -116,7 +121,7 @@
   align-content: center;
   flex-direction: column;
   height: 500px;
-  width: 50vw;
+  width: 60vw;
   padding-left: 3vw;
   color: var(--Primary-Color);
   
@@ -129,11 +134,12 @@
 }
 .Profile-Bottom{
   height: 1000px;
-  background-color: var(--Secondary-bg);
+  padding-top: 10vw;
+  background-color: var(--Primary-bg);
 }
 .Profile-Pic{
-  height: 25vw;
-  width: 26vw;
+  height: 12vw;
+  width: 13vw;
 }
 
 .Profile-Desc{
@@ -142,4 +148,98 @@
   padding-left: 15px;
   height: 20px;
   font-family: 'Share Tech Mono';
+}
+.Project-List{
+  background-color:var(--Primary-bg);
+}
+.Project{
+  display: flex;
+  height: 40vw;
+}
+.Timeline{
+  padding-left: 5vw;
+  padding-right: 5vw;
+  font-family: 'Share Tech Mono';
+  font-size: 3vw;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+.Project-Wrapper{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+.Project-Info{
+  display: flex;
+}
+.Project-Links{
+  margin-top: 3vw;
+  
+  display: flex;
+}
+.Project-Links img{
+  height: 3vw;
+  width: 3vw;
+  margin-left: 2vw;
+}
+.Project-Img{
+  height: 20vw;
+  width: 30vw;
+}
+.Project-Title{
+  font-size: 4vw;
+  font-family: 'Share Tech Mono';  
+}
+.Project-Detail{
+  margin-left:3vw;
+  display: flex;
+
+  flex-direction: column;
+}
+.Project-Desc{
+  margin-top: 1vw;
+  margin-left: 1vw;
+  font-size: 2vw;
+  margin-right: 5vw;
+  color:#5FADDF;
+}
+.Contacts-Info{
+  height: 10vw;
+  background-color: var(--Secondary-bg);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+.Contacts-Wrapper{
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.Contacts-Img{
+  width:5vw;
+  height:5vw;
+  margin: 1vw;
+}
+.Contacts-Title{
+  margin: 1vw;
+  font-size: 3vw;
+  font-family: 'Share Tech Mono';  
+}
+.Contacts{
+  background-color: var(--Secondary-bg);
+  display: flex;
+  flex-direction: column;
+}
+.Contact{
+  background-color: var(--Primary-bg);
+  height: 100vh;
+}
+.Contact-Info{
+  height: 70vh;
 }

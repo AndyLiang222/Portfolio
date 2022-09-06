@@ -1,0 +1,20 @@
+{
+    "contacts": [
+      {
+        "icon": "./images/con1.png",
+        "link": "https://www.instagram.com/ezaf_andy/"
+      },
+      {
+        "icon": "./images/con2.png",
+        "link": "https://discord.com/users/Andy123#8898"
+      },
+      {
+        "icon": "./images/con3.png",
+        "link": "mailto: abc@example.com"
+      },
+      {
+        "icon": "./images/con4.png",
+        "link": "https://github.com/AndyLiang222"
+      }
+    ]
+  }

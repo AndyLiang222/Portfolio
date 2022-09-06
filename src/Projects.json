@@ -1,0 +1,56 @@
+{
+    "projects": [
+      {
+        "name": "Tetris 1.0",
+        "img": "./images/img1.png",
+        "desc": "Made in Python, this Tetris clone was my first big project.",
+	  "time": "2020",
+        "links": [
+          {
+            "icon": "./images/gitLogo.png",
+            "link": "https://github.com/AndyLiang222/AndyProjects/tree/main/Tetris%201.0"
+          }
+        ]
+      },
+      {
+        "name": "Tetris 2.0",
+        "img": "./images/img2.png",
+        "desc": "Now made in Java, this Tetris clone is an improved version of its past clone.",
+	  "time": "2021",
+        "links": [
+          {
+            "icon": "./images/gitLogo.png",
+            "link": "https://github.com/AndyLiang222/AndyProjects/tree/main/Tetris%201.0"
+          }
+        ]
+      },
+      {
+        "name": "Agar.io",
+        "img": "./images/img3.png",
+        "desc": "Built using object oriented programming, I made a clone of a nostalgic game.",
+	  "time": "2021",
+        "links": [
+          {
+            "icon": "./images/gitLogo.png",
+            "link": "https://github.com/AndyLiang222/AndyProjects/tree/main/Tetris%201.0"
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Team Builder",
+        "img": "./images/img4.png",
+        "desc": "Created using the React framework.",
+	  "time": "2022",
+        "links": [
+          {
+            "icon": "./images/gitLogo.png",
+            "link": "https://github.com/AndyLiang222/PokemonTeamBuilder"
+          },
+          {
+            "icon": "./images/web.png",
+            "link": "https://andyliang222.github.io/PokemonTeamBuilder/"
+          }
+        ]
+      }
+    ]
+  }
