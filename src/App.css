@@ -151,12 +151,17 @@
   height: 20px;
   font-family: 'Share Tech Mono';
 }
+.Projects{
+  position: relative;
+  height: 270vw;
+}
 .Project-List{
+  height: 100vw;
   background-color:var(--Primary-bg);
 }
 .Project{
   display: flex;
-  height: 40vw;
+  height: 50vw;
 }
 .Timeline{
   padding-left: 5vw;
