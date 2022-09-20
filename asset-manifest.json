@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.41844e06.css",
-    "main.js": "/static/js/main.57c795e1.js",
+    "main.css": "/static/css/main.3d546929.css",
+    "main.js": "/static/js/main.e81fc75c.js",
     "static/media/back2.png": "/static/media/back2.62b1edd991245cbc28e2.png",
     "static/media/back.png": "/static/media/back.245753a1d62879b2c8b3.png",
     "static/media/img1.png": "/static/media/img1.97078cf4997ca5966ec7.png",
     "static/media/img2.png": "/static/media/img2.b77f8657eed594dc0f67.png",
     "static/media/img4.png": "/static/media/img4.427f848abc1f2b66a813.png",
     "static/media/img3.png": "/static/media/img3.60abe54b4ea85cd39c8b.png",
+    "static/media/img5.png": "/static/media/img5.3850819ebab68e6e49a5.png",
     "static/media/skills.png": "/static/media/skills.7ddfb7ef5c4fcea64b4f.png",
     "static/media/con3.png": "/static/media/con3.ac863c4a1efc2b9026dd.png",
     "static/media/logodis.png": "/static/media/logodis.92bfeb96fa99bb80e460.png",
@@ -16,11 +17,11 @@
     "static/media/con4.png": "/static/media/con4.bd793a607a91eeda6036.png",
     "static/media/gitLogo.png": "/static/media/gitLogo.bd793a607a91eeda6036.png",
     "index.html": "/index.html",
-    "main.41844e06.css.map": "/static/css/main.41844e06.css.map",
-    "main.57c795e1.js.map": "/static/js/main.57c795e1.js.map"
+    "main.3d546929.css.map": "/static/css/main.3d546929.css.map",
+    "main.e81fc75c.js.map": "/static/js/main.e81fc75c.js.map"
   },
   "entrypoints": [
-    "static/css/main.41844e06.css",
-    "static/js/main.57c795e1.js"
+    "static/css/main.3d546929.css",
+    "static/js/main.e81fc75c.js"
   ]
 }
