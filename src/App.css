@@ -12,6 +12,7 @@
   background-color: var(--Primary-bg);
   border: 0px;
   overflow-x: hidden;
+  position: relative;
 }
 .Nav{
   position: sticky;
@@ -134,7 +135,7 @@
   flex-direction: column;
 }
 .Profile-Bottom{
-  height: 1000px;
+  height: 90vw;
   padding-top: 10vw;
   background-color: var(--Primary-bg);
 }
@@ -236,8 +237,14 @@
   background-color: var(--Secondary-bg);
   display: flex;
   flex-direction: column;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+
 }
 .Contact{
+ 
+
   background-color: var(--Primary-bg);
   height: 100vh;
 }

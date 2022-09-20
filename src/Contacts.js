@@ -5,7 +5,7 @@ function Contacts() {
         return <a href={value.link}><img className='Contacts-Img' src={require(`${value.icon}`)}></img></a> 
     });
     return (
-        <div className='Contacts'>
+        <div id = "footer" className='Contacts'>
             <h1 className='Contacts-Title'>Contact Me</h1>
             <div className='Contacts-Info'>
                 <div className='Contacts-Wrapper'>
