@@ -16,7 +16,7 @@
         "name": "Tetris 2.0",
         "img": "./images/img2.png",
         "desc": "Now made in Java, this Tetris clone is an improved version of its past clone.",
-	  "time": "2021",
+	      "time": "2021",
         "links": [
           {
             "icon": "./images/gitLogo.png",
@@ -49,6 +49,22 @@
           {
             "icon": "./images/web.png",
             "link": "https://andyliang222.github.io/PokemonTeamBuilder/"
+          }
+        ]
+      },
+      {
+        "name": "Notified.",
+        "img": "./images/img5.png",
+        "desc": "Submission for Autumnhacks. Notified is a web application built using the MERN Stack. A single source to upload and find high quality notes/tests conveniently.",
+	  "time": "2022",
+        "links": [
+          {
+            "icon": "./images/gitLogo.png",
+            "link": "https://github.com/Coders222/notified."
+          },
+          {
+            "icon": "./images/web.png",
+            "link": "https://staynotified.xyz/"
           }
         ]
       }

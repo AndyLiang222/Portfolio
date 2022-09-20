@@ -113,8 +113,9 @@ function About() {
           
         </div>
         </motion.div>
+        <Contacts/>
       </div>
-      <Contacts/>
+      
     </div>
   );
 }
