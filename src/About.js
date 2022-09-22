@@ -8,8 +8,12 @@ import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
 import './App.css';
 import Contacts from './Contacts';
+import styled from 'styled-components';
 
 function About() {
+  const Type = styled.div`
+  
+  `;
   const imageVariant = {
     visible: { opacity: 1, scale: 2, transition:{duration:0.5} },
     hidden: { opacity: 0, scale: 0 },
@@ -52,6 +56,7 @@ function About() {
             initial = "hidden"
             animate = {control}
             >
+            <Type>
             <Typewriter
 
               onInit={(typewriter)=> {
@@ -59,6 +64,7 @@ function About() {
               .typeString("Student by day, DMOJ demon by night😈")
               .start();
             }}/>
+            </Type>
           </motion.div>
         </div>
         <div className='Profile-Right'>

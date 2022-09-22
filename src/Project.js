@@ -3,7 +3,12 @@ import Typewriter from "typewriter-effect";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
+import styled from 'styled-components';
+
 function Projects(props) {
+    const Type = styled.div`
+  
+     `;
     const imageVariant = {
         visible: { opacity: 1, scale: 1, transition:{duration:0.5} },
         hidden: { opacity: 0, scale: 0 },
@@ -25,12 +30,14 @@ function Projects(props) {
     return (
         <div className='Project'>
             <div className='Timeline'>
+            <Type>
                 <Typewriter
                     onInit={(typewriter)=> {
                     typewriter
                     .typeString(time)
                     .start();
                 }}/>
+            </Type>
             </div>
             
             <div className='Project-Wrapper'>
