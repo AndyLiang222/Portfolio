@@ -9,8 +9,13 @@ import { useEffect } from "react";
 import './App.css';
 import Contacts from './Contacts';
 import styled from 'styled-components';
+import Project from './Project'
+import projects from './Projects.json';
 
 function About() {
+  const p = projects.projects.map((value, index) =>{
+    return <Project key ={index} data = {value}/>
+  });
   const Type = styled.div`
   
   `;
@@ -44,7 +49,7 @@ function About() {
     }
   }, [control, inView]);
   return (
-    <div className="App">
+    <div className="Appp">
       <Nav></Nav>
       <div className='Profile'>
         <div className='Profile-Left'>
@@ -119,9 +124,11 @@ function About() {
           
         </div>
         </motion.div>
-        <Contacts/>
+        <h1 className='Skills-Title'>My Projects</h1>
+        <div className='Project-List'>{p}</div>
+        
       </div>
-      
+      <Contacts/>
     </div>
   );
 }

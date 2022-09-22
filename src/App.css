@@ -7,19 +7,20 @@
   --shadow: #363732;
 }
 
-.App{
+.Appp{
+  position: relative;
   display: inline-block;
   background-color: var(--Primary-bg);
   border: 0px;
   overflow-x: hidden;
-  position: relative;
+
 }
 .Nav{
   position: sticky;
   top: 0px;
   background-color:  var(--shadow);
   width: 99vw;
-  height: 10vh;
+  height: 5vw;
   z-index: 100;
 }
 .Logo{
@@ -59,7 +60,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 99vw;
-  height: 500px;
+  height: 40vw;
   display: flex;
 }
 .Profile-Name{
@@ -80,7 +81,7 @@
 .Profile-Skills{
   margin-top: 10vw;
   display: flex;
-
+  margin-bottom: 10vw;
 }
 .Skills-Right{
 
@@ -135,7 +136,7 @@
   flex-direction: column;
 }
 .Profile-Bottom{
-  height: 90vw;
+  height: 100%;
   padding-top: 10vw;
   background-color: var(--Primary-bg);
 }
@@ -153,15 +154,15 @@
 }
 .Projects{
   position: relative;
-  height: 270vw;
+  height: 225vw;
 }
 .Project-List{
-  height: 100vw;
+  height: 220vw;
   background-color:var(--Primary-bg);
 }
 .Project{
   display: flex;
-  height: 50vw;
+  height: 40vw;
 }
 .Timeline{
   padding-left: 5vw;
@@ -239,12 +240,14 @@
   font-family: 'Share Tech Mono';  
 }
 .Contacts{
+  position: absolute;
+  bottom: 0px;
   background-color: var(--Secondary-bg);
   display: flex;
   flex-direction: column;
   width: 100%;
-  position: absolute;
-  bottom: 0px;
+  height:15vw;
+  
 
 }
 .Contact{

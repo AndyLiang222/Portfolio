@@ -10,7 +10,7 @@ function Projects(props) {
   
      `;
     const imageVariant = {
-        visible: { opacity: 1, scale: 1, transition:{duration:0.5} },
+        visible: { opacity: 1, scale: 1, transition:{duration:0.75} },
         hidden: { opacity: 0, scale: 0 },
       }
     const data = props.data;
@@ -19,7 +19,7 @@ function Projects(props) {
         return <a href={value.link}><img src={require(`${value.icon}`)}></img></a>;
     });
     const control = useAnimation();
-    const [ref, inView] = useInView();
+    const [ref, inView] = useInView({ margin: "-500px 0px -500px 0px"});
     useEffect(() => {
         if (inView) {
           control.start("visible");
