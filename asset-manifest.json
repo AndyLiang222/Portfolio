@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0890ed9a.css",
-    "main.js": "/static/js/main.318bcd6d.js",
+    "main.css": "/static/css/main.48d4b8cb.css",
+    "main.js": "/static/js/main.1c8e145a.js",
     "static/media/back2.png": "/static/media/back2.62b1edd991245cbc28e2.png",
     "static/media/back.png": "/static/media/back.245753a1d62879b2c8b3.png",
     "static/media/img1.png": "/static/media/img1.97078cf4997ca5966ec7.png",
@@ -14,14 +14,15 @@
     "static/media/logodis.png": "/static/media/logodis.92bfeb96fa99bb80e460.png",
     "static/media/web.png": "/static/media/web.10a2be69190b69626a3e.png",
     "static/media/con1.png": "/static/media/con1.75e0546a6b5abe4c0506.png",
+    "static/media/star.png": "/static/media/star.2f9f3c7d9848042e1674.png",
     "static/media/con4.png": "/static/media/con4.bd793a607a91eeda6036.png",
     "static/media/gitLogo.png": "/static/media/gitLogo.bd793a607a91eeda6036.png",
     "index.html": "/index.html",
-    "main.0890ed9a.css.map": "/static/css/main.0890ed9a.css.map",
-    "main.318bcd6d.js.map": "/static/js/main.318bcd6d.js.map"
+    "main.48d4b8cb.css.map": "/static/css/main.48d4b8cb.css.map",
+    "main.1c8e145a.js.map": "/static/js/main.1c8e145a.js.map"
   },
   "entrypoints": [
-    "static/css/main.0890ed9a.css",
-    "static/js/main.318bcd6d.js"
+    "static/css/main.48d4b8cb.css",
+    "static/js/main.1c8e145a.js"
   ]
 }
