@@ -1,5 +1,6 @@
 import './App.css';
 import Typewriter from "typewriter-effect";
+import star from "./images/star.png"
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
@@ -12,12 +13,39 @@ function Projects(props) {
     const imageVariant = {
         visible: { opacity: 1, scale: 1, transition:{duration:0.75} },
         hidden: { opacity: 0, scale: 0 },
-      }
+    }
+    
+
     const data = props.data;
-    const {name,img,desc, time,links} = data;
+    const {name,img,desc, time,links,featured} = data;
     const v = links.map((value) =>{
         return <a href={value.link}><img src={require(`${value.icon}`)}></img></a>;
     });
+    const Img = styled.div`
+        height: 20vw;
+        width: 30vw;
+        background-image: url(${img});
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        position: relative;
+        border-radius:2vw;
+        padding-top:1vw;
+    `;
+    const Featured = styled.div`
+        width:10vw;
+        background-color:#363732;
+        color:white;
+        display:flex;
+        border-radius:1vw;
+        margin-left:1vw;
+        
+    `;
+    const Star = styled.img`
+        height:1vw;
+        width:1vw;
+        margin:auto 0.5vw;
+        
+    `
     const control = useAnimation();
     const [ref, inView] = useInView({ margin: "-500px 0px -500px 0px"});
     useEffect(() => {
@@ -48,7 +76,12 @@ function Projects(props) {
                     animate={control}
                 >
                     <div className= 'Project-Info'>
-                        <img className='Project-Img' src={require(`${img}`)}></img>
+                        <div>
+                            <Img >
+                                
+                                {featured && <Featured><Star src = {star}></Star>Featured</Featured>}
+                            </Img>
+                        </div>
                         <div className='Project-Detail'>
                             <text className='Project-Title'>
                                 {name}

@@ -4,7 +4,8 @@
         "name": "Tetris 1.0",
         "img": "./images/img1.png",
         "desc": "Made in Python, this Tetris clone was my first big project.",
-	  "time": "2020",
+	      "time": "2020",
+        "featured":false,
         "links": [
           {
             "icon": "./images/gitLogo.png",
@@ -17,6 +18,7 @@
         "img": "./images/img2.png",
         "desc": "Now made in Java, this Tetris clone is an improved version of its past clone.",
 	      "time": "2021",
+        "featured":false,
         "links": [
           {
             "icon": "./images/gitLogo.png",
@@ -28,7 +30,8 @@
         "name": "Agar.io",
         "img": "./images/img3.png",
         "desc": "Built using object oriented programming, I made a clone of a nostalgic game.",
-	  "time": "2021",
+	      "time": "2021",
+        "featured":true,
         "links": [
           {
             "icon": "./images/gitLogo.png",
@@ -40,7 +43,8 @@
         "name": "Pokemon Team Builder",
         "img": "./images/img4.png",
         "desc": "Created using the React framework.",
-	  "time": "2022",
+	      "time": "2022",
+        "featured":true,
         "links": [
           {
             "icon": "./images/gitLogo.png",
@@ -56,7 +60,8 @@
         "name": "Notified.",
         "img": "./images/img5.png",
         "desc": "Submission for Autumnhacks. Notified is a web application built using the MERN Stack. A single source to upload and find high quality notes/tests conveniently.",
-	  "time": "2022",
+	      "time": "2022",
+        "featured":true,
         "links": [
           {
             "icon": "./images/gitLogo.png",

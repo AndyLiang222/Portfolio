@@ -14,7 +14,7 @@ import projects from './Projects.json';
 
 function About() {
   const p = projects.projects.map((value, index) =>{
-    return <Project key ={index} data = {value}/>
+    return value.featured && <Project key ={index} data = {value}/>
   });
   const Type = styled.div`
   
@@ -125,7 +125,7 @@ function About() {
         </div>
         </motion.div>
         <h1 className='Skills-Title'>My Projects</h1>
-        <div className='Project-List'>{p}</div>
+        <div className='Project-List-Featured'>{p}</div>
         
       </div>
       <Contacts/>
