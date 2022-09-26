@@ -3,6 +3,7 @@ import { HashRouter as Router,Routes, Route, Link } from 'react-router-dom';
 import About from './About';
 import Projects from './Projects';
 import Contact from './Contact';
+
 function App() {
     return (
       <Router>
@@ -12,6 +13,7 @@ function App() {
                  <Route exact path='/about' element={< About />}></Route>
                  <Route exact path='/projects' element={< Projects />}></Route>
                  <Route exact path='/contact' element={< Contact />}></Route>
+
           </Routes>
         </div>
       </Router>
